@@ -46,6 +46,12 @@ function RootLayoutNav() {
 						headerShown: false,
 					}}
 				/>
+				<Stack.Screen
+					name="github"
+					options={{
+						headerShown: false,
+					}}
+				/>
 			</Stack>
 		</SafeAreaProvider>
 	);
