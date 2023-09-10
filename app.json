@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "mobile-hng",
+    "name": "HNG Stage-1",
     "slug": "mobile-hng",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bazznavtive.mobilehng"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c2b8088f-88b4-460e-b6bb-96f9f4557b08"
+      }
+    },
+    "owner": "bazz-navtive"
   }
 }
